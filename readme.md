@@ -29,7 +29,7 @@ unoconv (依赖于libreoffice)
   或者编写脚本文档：
   
   
-    `# create the start script for unoconv - start in listener mode:
+    # create the start script for unoconv - start in listener mode:
     touch /etc/init.d/unoconvd
     chmod 755 /etc/init.d/unoconvd
 
@@ -56,7 +56,7 @@ unoconv (依赖于libreoffice)
             sleep 1
             /usr/bin/unoconv --listener &amp;
             ;;
-    esac`
+    esac
 
 #### 3.2
   连接到unoconv并完成转换：
